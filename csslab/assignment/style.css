@@ -18,3 +18,8 @@ li {
     float: right;
   margin-left: 10px;
 }
+#rgulogo{
+    float:left;
+    width: 30px;
+    height: 5px;
+}
