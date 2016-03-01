@@ -7,3 +7,12 @@ li {
     margin-left: 5px;
     margin-right: 5px;
 }
+.news{
+    background-color: fuchsia;
+    float: right;
+}
+.events{
+    background-color: fuchsia;
+    float: right;
+
+}
