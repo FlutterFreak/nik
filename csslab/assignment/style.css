@@ -7,11 +7,11 @@ li {
     margin-left: 5px;
     margin-right: 5px;
 }
-.news{
+#news{
     background-color: fuchsia;
     float: right;
 }
-.events{
+#events{
     background-color: fuchsia;
     float: right;
 
