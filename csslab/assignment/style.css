@@ -10,9 +10,11 @@ li {
 #news{
     background-color: fuchsia;
     float: right;
+    margin-left: 10px;
+
 }
 #events{
     background-color: fuchsia;
     float: right;
-
+  margin-left: 10px;
 }
