@@ -8,15 +8,15 @@
 $myage = 28;
 
 if ($myage>=21){
-    echo "you can buy specs,mugs,sausage rolls"
+    echo "you can buy specs,mugs,sausage rolls";
 }
 elseif($myage>=18){
-    echo "you can buy specs and mugs"
+    echo "you can buy specs and mugs";
 }
 elseif($myage>=16){
-    echo "you can buy specs"
+    echo "you can buy specs";
 }
 else{
-    echo "you can't buy anything"
+    echo "you can't buy anything";
 }
 ?>
