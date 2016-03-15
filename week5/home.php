@@ -5,7 +5,10 @@
     <link rel="stylesheet" href="style.css" type="text/css" />
 </head>
 <body>
-<h1>Hello</h1>
+<a href="allmovies.php">Display All Movies</a>
+<a href="marvelstudios.php">Display Movies created By Marvel Studios</a>
+<a href="after2010.php">Display Movies created after 2010</a>
+<a href="xmenfilms.php">Display all X-Men Movies</a>
 </body>
 </html><?
 /**
