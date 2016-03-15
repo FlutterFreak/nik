@@ -8,7 +8,7 @@
 include("databse.php");
 if(empty($_POST["username"])|| empty($_POST["password"]))
 {
-    echo "botjh fields are required";
+    echo "both fields are required";
 }
 else
 {
