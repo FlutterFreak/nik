@@ -13,7 +13,7 @@
  * Date: 21/03/2016
  * Time: 10:26
  */
-$planet1 = $_GET["Earth"];
+$planet = $_GET["planet"];
 $planet2 = $_GET["mars"];
 $planet3 = $_GET["uranus"];
  echo $planet1;
