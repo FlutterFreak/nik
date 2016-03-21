@@ -22,3 +22,6 @@ while($row=$result->fetch_array())
     $movietitle=$row['title'];
     echo"<p>".$movietitle."<p>";
 }
+
+?>
+</html>
