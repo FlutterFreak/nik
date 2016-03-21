@@ -1,7 +1,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Movies after 2010</title>
+    <title>Movies by marvel studios</title>
     <link rel="stylesheet" href="style.css" type="text/css" />
 </head>
 <body>Movies by marvel studios</body>
@@ -15,7 +15,7 @@
  */
 include("databse.php");
 $db=marvelmovies;
-$sq1= "SELECT * FROM marvelmovies Where yearReleased >= 2010";
+$sq1= "SELECT * FROM marvelmovies Where productionStudio = Marvel Studios ";
 $result=mysqli_query($db,$sql);
 while($row=$result->fetch_array())
 {
