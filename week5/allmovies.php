@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="style.css" type="text/css" />
 </head>
 <body>All Movies</body>
-
+<ul>
 <?php
 
 include("databse.php");
@@ -19,4 +19,5 @@ while($row = $result->fetch_array()){
 }
 
 ?>
+    </ul>
 </html>
