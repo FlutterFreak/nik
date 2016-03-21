@@ -11,9 +11,9 @@
 include("databse.php");
 
 echo "</p>";
-$sql_query = "SELECT * FROM marvelmovies where yearReleased < 2010";
+$sql_query = "SELECT * FROM marvelmovies where yearReleased >= 2010";
 $result = $db->query($sql_query);
-echo "<p><strong>Before 2010: </strong>";
+echo "<p><strong>After 2010: </strong>";
 while($row = $result->fetch_array()){
     // print out fields from row of data
     echo $row['title'] . " | ";
