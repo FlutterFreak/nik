@@ -19,5 +19,5 @@ while($row = $result->fetch_array()){
 }
 
 ?>
-    </ul>
+</ul>
 </html>
