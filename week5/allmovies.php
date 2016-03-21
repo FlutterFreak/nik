@@ -5,19 +5,19 @@
     <link rel="stylesheet" href="style.css" type="text/css" />
 </head>
 <body>All Movies</body>
-<ul>
+
 <?php
 
 include("databse.php");
 
-$sql= "SELECT * FROM marvelmovies";
-$result = $db->query($sql);
-
+echo "</p>";
+$sql_query = "SELECT * FROM marvelmovies where yearReleased < 2010";
+$result = $db->query($sql_query);
+echo "<p><strong>Before 2010: </strong>";
 while($row = $result->fetch_array()){
     // print out fields from row of data
     echo $row['title'] . " | ";
 }
-
 ?>
-</ul>
+
 </html>
