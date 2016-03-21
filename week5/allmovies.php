@@ -14,7 +14,7 @@
  * Time: 10:21
  */
 include("databse.php");
-$db=marvelmovies;
+
 $sql= "SELECT * FROM marvelmovies";
 $result=mysqli_query($db,$sql);
 while($row=$result->fetch_array())
