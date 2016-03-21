@@ -7,20 +7,15 @@
 <body>All Movies</body>
 
 <?php
-/**
- * Created by PhpStorm.
- * User: 1516734
- * Date: 15/03/2016
- * Time: 10:21
- */
+
 include("databse.php");
 
 $sql= "SELECT * FROM marvelmovies";
-$result=mysqli_query($db,$sql);
-while($row=$result->fetch_array())
-{
-    $movietitle=$row['title'];
-    echo"<p>".$movietitle."<p>";
+$result = $db->query($sql);
+
+while($row = $result->fetch_array()){
+    // print out fields from row of data
+    echo $row['title'] . " | ";
 }
 
 ?>
