@@ -10,3 +10,8 @@ define('DB_USERNAME','b126171871fa5a');
 define('DB_PASSWORD','a0abb12e');
 DEFINE('DB_DATABASE','nikdata');
 $db = mysqli_connect(DB_SERVER,DB_USERNAME,DB_PASSWORD,DB_DATABASE);
+
+if (mysqli_connect_errno())
+{
+    echo "Failed to connect to MySQL: " . mysqli_connect_error();
+}
