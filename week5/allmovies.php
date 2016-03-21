@@ -15,7 +15,7 @@
  */
 include("databse.php");
 $db=marvelmovies;
-$sq1= "SELECT * FROM marvelmovies";
+$sql= "SELECT * FROM marvelmovies";
 $result=mysqli_query($db,$sql);
 while($row=$result->fetch_array())
 {
