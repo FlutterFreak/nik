@@ -14,13 +14,13 @@
  */
 include("databse.php");
 
-$sq1= "SELECT * FROM marvelmovies Where yearReleased >= 2010";
-$result=mysqli_query($db,$sql);
-while($row=$result->fetch_array())
-{
-    $movietitle=$row['title'];
-    echo $row['title'] . " | ";
-}
+echo "</p>";
+$sql_query = "SELECT * FROM marvelmovies where yearReleased < 2010";
+$result = $db->query($sql_query);
+echo "<p><strong>Before 2010: </strong>";
+while($row = $result->fetch_array()){
+// print out fields from row of data
+echo $row['title'] . " | ";
 ?>
 </html>
 
