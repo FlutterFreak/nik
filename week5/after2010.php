@@ -13,7 +13,7 @@
  * Time: 10:22
  */
 include("databse.php");
-$db=marvelmovies;
+
 $sq1= "SELECT * FROM marvelmovies Where yearReleased >= 2010";
 $result=mysqli_query($db,$sql);
 while($row=$result->fetch_array())
