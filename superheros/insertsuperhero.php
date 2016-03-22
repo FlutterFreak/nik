@@ -10,7 +10,7 @@ include ("db_connect.php");
 $firstname = $_post["firstname"];
 $lastname = $_post["lastname"];
 $superpower = $_post["superpower"];
-$sql = "INSERT INTO superheros (firstname, lastname, superpower) VALUES ('$firstname','$lastname','$superpower')";
+$sql = "INSERT INTO superheros (firstname, lastname, mainsuperpower) VALUES ('$firstname','$lastname','$superpower')";
 
 if (mysqli_query($db,$sql)){}
 else {
