@@ -14,7 +14,7 @@ $sql = "INSERT INTO superheros (firstname, lastname, superpower) VALUES ('$first
 
 if (mysqli_query($db,$sql)){}
 else {
-     echo "Error:" . $sql . "<br>" . msqli_error(£db);
+     echo "Error:" . $sql . "<br>" . msqli_error($db);
     }
 header("location:index.php");
 ?>
